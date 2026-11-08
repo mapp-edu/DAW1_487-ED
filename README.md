@@ -20,9 +20,9 @@ Sitio del módulo profesional **0487 Entornos de Desarrollo** del CFGS Desarroll
 |:--:|--------|:--:|:-----:|
 | 1 | Desarrollo de software y metodologías ágiles | RA1 | 9 |
 | 2 | Entornos de desarrollo integrados | RA2 | 9 |
-| 3 | Control de versiones y trabajo colaborativo | RA4 (f, h) | 15 |
+| 3 | Control de versiones y trabajo colaborativo | RA4 (f, h) | 18 |
 | 4 | Diseño y realización de pruebas | RA3 | 21 |
-| 5 | Refactorización, documentación e integración continua | RA4 (a–e, g, i) | 15 |
+| 5 | Refactorización, documentación e integración continua | RA4 (a–e, g, i) | 16 |
 | 6 | Diagramas de clases | RA5 | 15 |
 | 7 | Diagramas de comportamiento | RA6 | 12 |
 
@@ -44,8 +44,6 @@ zensical build --clean           # genera site/ (sin las soluciones)
 
 ## Pendiente de completar
 
-- [ ] `site_url` en `zensical.toml` (usuario u organización de GitHub).
-- [ ] Nombre del docente en `zensical.toml` (`site_author`, `copyright`) y en `docs/modulo/index.md` y `docs/modulo/creditos.md`.
 - [ ] Fechas del calendario 2026-27 en `docs/modulo/temporizacion.md`.
 
 ## Licencia

@@ -6,8 +6,8 @@ Probar no es «comprobar que funciona»: es **buscar errores de forma sistemáti
 |---|---|
 | **Resultado de aprendizaje** | RA3 · Verifica el funcionamiento de programas diseñando y realizando pruebas |
 | **Criterios** | a, b, c, d, e, f, g, h, i |
-| **Duración** | 21 horas · semanas 12–18 · 2.ª evaluación |
-| **Peso del RA** | 22 % de la nota del módulo |
+| **Duración** | 21 horas · semanas 13–19 · 2.ª evaluación |
+| **Peso del RA** | 21 % de la nota del módulo |
 
 ## Objetivos
 
@@ -32,13 +32,13 @@ Probar no es «comprobar que funciona»: es **buscar errores de forma sistemáti
 
 | Semana | Tutoría colectiva | Trabajo autónomo |
 |:------:|-------------------|------------------|
-| 12 | Por qué y cuándo probar. Tipos y niveles. Plan de pruebas. | Apartado 1 |
-| 13 | Depurador en IntelliJ IDEA y VS Code (práctica guiada `LlenarNumeros`). | Apartado 3. **T4.1** |
-| 14 | Caja negra: clases de equivalencia y valores límite. | Apartado 2 |
-| 15 | Caja blanca: grafo de flujo, complejidad ciclomática y caminos. | Apartado 2. **T4.2** |
-| 16 | Maven y JUnit 6: primer proyecto con pruebas (práctica guiada `Calculadora`). | Apartado 4 |
-| 17 | Pruebas parametrizadas, excepciones y cobertura. Incidencias. | Apartados 4 y 6. **T4.3** |
-| 18 | Dobles de prueba con Mockito. Introducción a TDD. | Apartado 5. **T4.4** |
+| 13 | Por qué y cuándo probar. Tipos y niveles. Plan de pruebas. | Apartado 1 |
+| 14 | Depurador en IntelliJ IDEA y VS Code (práctica guiada `LlenarNumeros`). | Apartado 3. **T4.1** |
+| 15 | Caja negra: clases de equivalencia y valores límite. | Apartado 2 |
+| 16 | Caja blanca: grafo de flujo, complejidad ciclomática y caminos. | Apartado 2. **T4.2** |
+| 17 | Maven y JUnit 6: primer proyecto con pruebas (práctica guiada `Calculadora`). | Apartado 4 |
+| 18 | Pruebas parametrizadas, excepciones y cobertura. Incidencias. | Apartados 4 y 6. **T4.3** |
+| 19 | Dobles de prueba con Mockito. Introducción a TDD. | Apartado 5. **T4.4** |
 
 ## Tareas evaluables
 

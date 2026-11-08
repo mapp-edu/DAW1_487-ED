@@ -6,8 +6,8 @@ Los diagramas de clases muestran cómo **es** el sistema. Los de comportamiento 
 |---|---|
 | **Resultado de aprendizaje** | RA6 · Genera diagramas de comportamiento valorando su importancia en el desarrollo de aplicaciones y empleando herramientas específicas |
 | **Criterios** | a, b, c, d, e, f, g, h |
-| **Duración** | 12 horas · semanas 29–32 · 3.ª evaluación |
-| **Peso del RA** | 13 % de la nota del módulo |
+| **Duración** | 12 horas · semanas 30–33 · 3.ª evaluación |
+| **Peso del RA** | 12 % de la nota del módulo |
 
 !!! note "Formación en empresa"
     En el curso 2025-26, este RA se planteó como resultado de aprendizaje dual (a trabajar en la empresa). En esta programación se imparte en el centro, porque no se ha previsto ningún RA dual para 2026-27. Si el plan de formación en empresa lo incluye, esta unidad se adaptará.
@@ -32,10 +32,10 @@ Los diagramas de clases muestran cómo **es** el sistema. Los de comportamiento 
 
 | Semana | Tutoría colectiva | Trabajo autónomo |
 |:------:|-------------------|------------------|
-| 29 | Tipos de diagramas. Casos de uso: ejemplo de gestión de fincas e inmuebles. | Apartados 1 y 2. **T7.1** |
-| 30 | Diagramas de secuencia y de comunicación. Del caso de uso a la secuencia. | Apartado 3. **T7.2** |
-| 31 | Diagramas de actividad y de estados. | Apartados 4 y 5. **T7.3** |
-| 32 | Repaso integrado (clases + comportamiento). **Prueba presencial de la 3.ª evaluación.** | |
+| 30 | Tipos de diagramas. Casos de uso: ejemplo de gestión de fincas e inmuebles. | Apartados 1 y 2. **T7.1** |
+| 31 | Diagramas de secuencia y de comunicación. Del caso de uso a la secuencia. | Apartado 3. **T7.2** |
+| 32 | Diagramas de actividad y de estados. | Apartados 4 y 5. **T7.3** |
+| 33 | Repaso integrado (clases + comportamiento). **Prueba presencial de la 3.ª evaluación.** | |
 
 ## Tareas evaluables
 

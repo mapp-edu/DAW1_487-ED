@@ -59,7 +59,7 @@ Pasos:
 
 ## T5.3 · Documentación del proyecto { #t53 }
 
-**RA4 · CE g** · Peso: 10 % de las tareas del RA4 · Individual
+**RA4 · CE g** · Peso: 9 % de las tareas del RA4 · Individual
 
 *Adaptada de las prácticas de Javadoc, Markdown y MkDocs del curso 2025-26.*
 
@@ -81,7 +81,7 @@ Pasos:
 
 ## T5.4 · *Pipeline* de integración continua { #t54 }
 
-**RA4 · CE i** · Peso: 15 % de las tareas del RA4 · Individual
+**RA4 · CE i** · Peso: 13 % de las tareas del RA4 · Individual
 
 ### Enunciado
 

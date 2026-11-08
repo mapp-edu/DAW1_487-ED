@@ -6,8 +6,8 @@ El diagrama de clases es el plano de un sistema orientado a objetos: muestra qu�
 |---|---|
 | **Resultado de aprendizaje** | RA5 · Genera diagramas de clases valorando su importancia en el desarrollo de aplicaciones y empleando herramientas específicas |
 | **Criterios** | a, b, c, d, e, f |
-| **Duración** | 15 horas · semanas 24–28 · 3.ª evaluación |
-| **Peso del RA** | 16 % de la nota del módulo |
+| **Duración** | 15 horas · semanas 25–29 · 3.ª evaluación |
+| **Peso del RA** | 15 % de la nota del módulo |
 
 ## Objetivos
 
@@ -28,11 +28,11 @@ El diagrama de clases es el plano de un sistema orientado a objetos: muestra qu�
 
 | Semana | Tutoría colectiva | Trabajo autónomo |
 |:------:|-------------------|------------------|
-| 24 | POO y UML. Tipos de diagramas. Clases, atributos y métodos. | Apartados 1 y 2. **T6.1** |
-| 25 | Relaciones: asociación, multiplicidad y navegabilidad. Agregación y composición. | Apartado 3 |
-| 26 | Herencia, clases abstractas, interfaces y enumeraciones. Del texto al diagrama: método de trabajo. | **T6.2** |
-| 27 | PlantUML y Mermaid. Visual Paradigm: generar código. | Apartado 4 |
-| 28 | Ingeniería inversa. Correcciones comentadas de los ejercicios. | **T6.3** |
+| 25 | POO y UML. Tipos de diagramas. Clases, atributos y métodos. | Apartados 1 y 2. **T6.1** |
+| 26 | Relaciones: asociación, multiplicidad y navegabilidad. Agregación y composición. | Apartado 3 |
+| 27 | Herencia, clases abstractas, interfaces y enumeraciones. Del texto al diagrama: método de trabajo. | **T6.2** |
+| 28 | PlantUML y Mermaid. Visual Paradigm: generar código. | Apartado 4 |
+| 29 | Ingeniería inversa. Correcciones comentadas de los ejercicios. | **T6.3** |
 
 ## Tareas evaluables
 

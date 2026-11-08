@@ -9,7 +9,7 @@ Puedes copiarlos, adaptarlos y redistribuirlos sin fines comerciales, siempre qu
 
 ## Autoría y procedencia
 
-- Elaboración y adaptación: **[NOMBRE DEL DOCENTE]**.
+- Elaboración y adaptación: **Miquel Àngel París i Peñaranda**.
 - Este material **adapta y actualiza** los recursos del curso de Aules «Entornos de desarrollo» (curso 2025-26) de **Eva Palomar Sarrió**, que a su vez incluían presentaciones de **Vicent Martí**. Las adaptaciones se han hecho con permiso para su reutilización.
 - Los enunciados de prácticas que proceden de ese curso se indican con la nota «Adaptado de…» en la propia tarea.
 - Las secciones nuevas (metodologías ágiles, dobles de prueba, integración continua, diagramas de actividad y de estados, entre otras) son de elaboración propia.

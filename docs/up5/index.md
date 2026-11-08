@@ -6,8 +6,8 @@ Un código que funciona no es suficiente: tiene que poder **leerse, mantenerse y
 |---|---|
 | **Resultado de aprendizaje** | RA4 · Optimiza código empleando las herramientas disponibles en el entorno de desarrollo |
 | **Criterios** | a, b, c, d, e, g, i |
-| **Duración** | 15 horas · semanas 19–23 · 2.ª evaluación |
-| **Peso** | La UP5 aporta el 50 % de la nota del RA4 (31 % del módulo) |
+| **Duración** | 16 horas · semanas 20–24 · 2.ª evaluación |
+| **Peso** | La UP5 aporta el 47 % de la nota del RA4 (34 % del módulo) |
 
 ## Objetivos
 
@@ -28,11 +28,11 @@ Un código que funciona no es suficiente: tiene que poder **leerse, mantenerse y
 
 | Semana | Tutoría colectiva | Trabajo autónomo |
 |:------:|-------------------|------------------|
-| 19 | Malos olores y catálogo de refactorizaciones. Refactorizar `NotasNoEstructurado` en directo con el IDE. | Apartado 1. **T5.1** |
-| 20 | Pruebas de caracterización y refactorización segura. | **T5.1** |
-| 21 | Analizadores: SonarQube for IDE, inspecciones de IntelliJ y Checkstyle. Configurar reglas. | Apartado 2. **T5.2** |
-| 22 | Javadoc, Markdown y documentación como código con Zensical. | Apartado 3. **T5.3** |
-| 23 | GitHub Actions: *pipeline* de CI y publicación en GitHub Pages. **Prueba presencial de la 2.ª evaluación.** | Apartado 4. **T5.4** |
+| 20 | Malos olores y catálogo de refactorizaciones. Refactorizar `NotasNoEstructurado` en directo con el IDE. | Apartado 1. **T5.1** |
+| 21 | Pruebas de caracterización y refactorización segura. | **T5.1** |
+| 22 | Analizadores: SonarQube for IDE, inspecciones de IntelliJ y Checkstyle. Configurar reglas. | Apartado 2. **T5.2** |
+| 23 | Javadoc, Markdown y documentación como código con Zensical. | Apartado 3. **T5.3** |
+| 24 | (Sesión de 4 h.) GitHub Actions: *pipeline* de CI y publicación en GitHub Pages. **Prueba presencial de la 2.ª evaluación.** | Apartado 4. **T5.4** |
 
 ## Tareas evaluables
 
@@ -40,8 +40,8 @@ Un código que funciona no es suficiente: tiene que poder **leerse, mantenerse y
 |-------|:--:|:--------------------------:|
 | [T5.1 · Refactorización guiada por pruebas](tareas.md#t51) | a, b, e | 15 % |
 | [T5.2 · Revisión con un analizador de código](tareas.md#t52) | c, d | 10 % |
-| [T5.3 · Documentación del proyecto](tareas.md#t53) | g | 10 % |
-| [T5.4 · *Pipeline* de integración continua](tareas.md#t54) | i | 15 % |
+| [T5.3 · Documentación del proyecto](tareas.md#t53) | g | 9 % |
+| [T5.4 · *Pipeline* de integración continua](tareas.md#t54) | i | 13 % |
 
 ## Recursos
 

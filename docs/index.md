@@ -4,7 +4,7 @@ title: Inicio
 
 # Entornos de Desarrollo
 
-**Módulo profesional 0487** · CFGS Desarrollo de Aplicaciones Web (DAW) · 1.^er^ curso · Modalidad semipresencial · 96 horas (3 h/semana)
+**Módulo profesional 0487** · CFGS Desarrollo de Aplicaciones Web (DAW) · 1.^er^ curso · Modalidad semipresencial · 100 horas (3 h/semana, 33 semanas)
 
 Este sitio reúne la programación, los apuntes y las tareas del módulo. Está organizado en **siete unidades de programación (UP)**, y cada una trabaja uno o varios **resultados de aprendizaje (RA)** del currículo.
 
@@ -14,9 +14,9 @@ Este sitio reúne la programación, los apuntes y las tareas del módulo. Está 
 |:--:|--------|:--:|:-----:|:----------:|
 | [UP1](up1/index.md) | Desarrollo de software y metodologías ágiles | RA1 | 9 | 1.ª |
 | [UP2](up2/index.md) | Entornos de desarrollo integrados | RA2 | 9 | 1.ª |
-| [UP3](up3/index.md) | Control de versiones y trabajo colaborativo | RA4 (f, h) | 15 | 1.ª |
+| [UP3](up3/index.md) | Control de versiones y trabajo colaborativo | RA4 (f, h) | 18 | 1.ª |
 | [UP4](up4/index.md) | Diseño y realización de pruebas | RA3 | 21 | 2.ª |
-| [UP5](up5/index.md) | Refactorización, documentación e integración continua | RA4 (a–e, g, i) | 15 | 2.ª |
+| [UP5](up5/index.md) | Refactorización, documentación e integración continua | RA4 (a–e, g, i) | 16 | 2.ª |
 | [UP6](up6/index.md) | Diagramas de clases | RA5 | 15 | 3.ª |
 | [UP7](up7/index.md) | Diagramas de comportamiento | RA6 | 12 | 3.ª |
 

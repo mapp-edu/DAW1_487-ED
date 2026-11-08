@@ -1,0 +1,241 @@
+/* ==========================================================================
+   Paleta del sitio · Entornos de Desarrollo (DAW1)
+   --------------------------------------------------------------------------
+   Rol                   Modo claro (default)   Modo oscuro (slate)
+   Primario              #5E35B1                #7E57C2
+   Acento                #2E7D32                #66BB6A
+   Fondo base            #FFFFFF                #121212
+   Superficie / tarjetas #F5F5F7                #1E1E1E
+   Texto principal       #212121                #E0E0E0
+   --------------------------------------------------------------------------
+   Contraste (WCAG 2.2): texto 16,1:1 / 14,2:1 · títulos 8,0:1 / 7,8:1 ·
+   enlaces 5,1:1 / 7,9:1 · texto blanco sobre la barra 8,0:1 / 5,2:1.
+   En modo oscuro, los títulos usan #B39DDB (morado 200), porque #7E57C2
+   sobre #121212 solo alcanza 3,6:1. Los enlaces van siempre subrayados
+   para no depender solo del color (criterio 1.4.1).
+   ========================================================================== */
+
+/* --- Modo claro ---------------------------------------------------------- */
+[data-md-color-scheme="default"] {
+  --ed-primary:       #5E35B1;
+  --ed-primary-dark:  #4527A0;
+  --ed-primary-light: #7E57C2;
+  --ed-heading:       #5E35B1;  /* 8,0:1 sobre #FFFFFF */
+  --ed-accent:        #2E7D32;
+  --ed-bg:            #FFFFFF;
+  --ed-surface:       #F5F5F7;
+  --ed-text:          #212121;
+  --ed-on-primary:    #FFFFFF;
+  --ed-border:        #E2E2E6;
+}
+
+/* --- Modo oscuro --------------------------------------------------------- */
+[data-md-color-scheme="slate"] {
+  --ed-primary:       #7E57C2;
+  --ed-primary-dark:  #5E35B1;
+  --ed-primary-light: #9575CD;
+  --ed-heading:       #B39DDB;  /* 7,8:1 sobre #121212 (el primario daría 3,6:1) */
+  --ed-accent:        #66BB6A;
+  --ed-bg:            #121212;
+  --ed-surface:       #1E1E1E;
+  --ed-text:          #E0E0E0;
+  --ed-on-primary:    #FFFFFF;
+  --ed-border:        #2C2C2C;
+}
+
+/* --- Variables del tema (ambos modos) ------------------------------------ */
+[data-md-color-scheme="default"],
+[data-md-color-scheme="slate"] {
+  /* Primario */
+  --md-primary-fg-color:        var(--ed-primary);
+  --md-primary-fg-color--light: var(--ed-primary-light);
+  --md-primary-fg-color--dark:  var(--ed-primary-dark);
+  --md-primary-bg-color:        var(--ed-on-primary);
+  --md-primary-bg-color--light: rgba(255, 255, 255, 0.7);
+
+  /* Acento */
+  --md-accent-fg-color:              var(--ed-accent);
+  --md-accent-fg-color--transparent: color-mix(in srgb, var(--ed-accent) 10%, transparent);
+  --md-accent-bg-color:              var(--ed-on-primary);
+  --md-accent-bg-color--light:       rgba(255, 255, 255, 0.7);
+
+  /* Fondo y texto */
+  --md-default-bg-color:           var(--ed-bg);
+  --md-default-bg-color--light:    color-mix(in srgb, var(--ed-bg) 54%, transparent);
+  --md-default-bg-color--lighter:  color-mix(in srgb, var(--ed-bg) 26%, transparent);
+  --md-default-bg-color--lightest: color-mix(in srgb, var(--ed-bg) 7%, transparent);
+  --md-default-fg-color:           var(--ed-text);
+  --md-default-fg-color--light:    color-mix(in srgb, var(--ed-text) 66%, transparent);
+  --md-default-fg-color--lighter:  color-mix(in srgb, var(--ed-text) 38%, transparent);
+  --md-default-fg-color--lightest: color-mix(in srgb, var(--ed-text) 12%, transparent);
+  --md-typeset-color:              var(--ed-text);
+
+  /* Enlaces */
+  --md-typeset-a-color: var(--ed-accent);
+
+  /* Superficies: bloques de código y tablas */
+  --md-code-bg-color:          var(--ed-surface);
+  --md-code-bg-color--light:   color-mix(in srgb, var(--ed-surface) 90%, transparent);
+  --md-code-bg-color--lighter: color-mix(in srgb, var(--ed-surface) 54%, transparent);
+  --md-typeset-table-color:    var(--ed-border);
+
+  /* Diagramas Mermaid en la paleta del sitio */
+  --md-mermaid-node-bg-color: var(--ed-surface);
+  --md-mermaid-node-fg-color: var(--ed-heading);
+  --md-mermaid-edge-color:    var(--ed-text);
+  --md-mermaid-label-bg-color: var(--ed-bg);
+  --md-mermaid-label-fg-color: var(--ed-text);
+}
+
+/* --- Barra de navegación superior y pestañas (primario) ------------------ */
+.md-header,
+.md-tabs {
+  background-color: var(--ed-primary);
+  color: var(--ed-on-primary);
+}
+.md-header .md-header__title,
+.md-header .md-header__topic,
+.md-header .md-header__button,
+.md-header .md-icon,
+.md-header .md-source,
+.md-tabs .md-tabs__link {
+  color: var(--ed-on-primary);
+}
+.md-tabs .md-tabs__link--active,
+.md-tabs .md-tabs__link:hover {
+  color: var(--ed-on-primary);
+  opacity: 1;
+  text-decoration: underline;
+  text-underline-offset: 0.35em;
+}
+/* Buscador dentro de la barra: legible sobre el morado */
+.md-header .md-search__input,
+.md-header .md-search__form,
+.md-header .md-search button,
+.md-header [class*="md-search"] {
+  color: var(--ed-on-primary);
+}
+.md-header .md-search__input::placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* --- Cabeceras (primario) ------------------------------------------------ */
+.md-typeset h1,
+.md-typeset h2,
+[data-md-color-scheme="slate"] .md-typeset h1,
+[data-md-color-scheme="slate"] .md-typeset h2 {
+  color: var(--ed-heading);
+}
+.md-typeset h3,
+.md-typeset h4,
+[data-md-color-scheme="slate"] .md-typeset h3,
+[data-md-color-scheme="slate"] .md-typeset h4 {
+  color: var(--ed-text);
+}
+
+/* --- Enlaces y acciones (acento) ----------------------------------------- */
+.md-typeset a,
+.md-nav__link--active,
+.md-nav__link:hover,
+.md-nav__item .md-nav__link--active {
+  color: var(--ed-accent);
+}
+/* Enlaces del contenido subrayados: no se distinguen solo por el color */
+.md-typeset a:not(.md-button):not(.headerlink) {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+}
+.md-typeset a:not(.md-button):hover,
+.md-typeset a:not(.md-button):focus {
+  color: var(--ed-accent);
+  text-decoration-thickness: 2px;
+}
+
+/* Foco visible al navegar con teclado */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+label:focus-visible,
+summary:focus-visible,
+[tabindex]:focus-visible {
+  outline: 3px solid var(--ed-accent);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+.md-header a:focus-visible,
+.md-header button:focus-visible,
+.md-header label:focus-visible,
+.md-tabs a:focus-visible {
+  outline-color: #FFFFFF;
+}
+
+/* Pestañas de contenido (=== "…"): la pestaña activa, en el color de los títulos */
+.md-typeset .tabbed-labels > label:hover {
+  color: var(--ed-accent);
+}
+.md-typeset .tabbed-set > input:checked + label,
+.md-typeset .tabbed-labels > label.tabbed-label--active {
+  color: var(--ed-heading);
+}
+.md-typeset .tabbed-labels::before {
+  background: var(--ed-heading);
+}
+.md-typeset .md-button {
+  color: var(--ed-accent);
+  border-color: var(--ed-accent);
+}
+.md-typeset .md-button--primary,
+.md-typeset .md-button:hover,
+.md-typeset .md-button:focus {
+  background-color: var(--ed-accent);
+  border-color: var(--ed-accent);
+  color: #FFFFFF;
+}
+[data-md-color-scheme="slate"] .md-typeset .md-button--primary,
+[data-md-color-scheme="slate"] .md-typeset .md-button:hover {
+  color: #121212;
+}
+
+/* Insignias de módulo: <span class="ed-badge">RA4</span> */
+.md-typeset .ed-badge {
+  display: inline-block;
+  padding: 0.1em 0.6em;
+  border-radius: 1em;
+  font-size: 0.75em;
+  font-weight: 700;
+  background-color: var(--ed-accent);
+  color: #FFFFFF;
+}
+[data-md-color-scheme="slate"] .md-typeset .ed-badge {
+  color: #121212;
+}
+
+/* --- Fondo de lectura ----------------------------------------------------- */
+body,
+.md-main,
+.md-container {
+  background-color: var(--ed-bg);
+  color: var(--ed-text);
+}
+
+/* --- Superficies: notas, código y tablas ---------------------------------- */
+.md-typeset .admonition,
+.md-typeset details {
+  background-color: var(--ed-surface);
+}
+.md-typeset pre > code,
+.md-typeset code {
+  background-color: var(--ed-surface);
+}
+.md-typeset table:not([class]) {
+  background-color: var(--ed-surface);
+  border-color: var(--ed-border);
+}
+.md-typeset table:not([class]) th {
+  background-color: color-mix(in srgb, var(--ed-primary) 12%, var(--ed-surface));
+  color: var(--ed-text);
+}
+.md-typeset table:not([class]) td {
+  border-color: var(--ed-border);
+}

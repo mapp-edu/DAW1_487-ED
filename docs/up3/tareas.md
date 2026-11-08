@@ -6,7 +6,7 @@ Calificación con la [escala común 0–4](../modulo/rubricas.md). En Aules se e
 
 ## T3.1 · Primer repositorio: aparcamiento { #t31 }
 
-**RA4 · CE f** · Peso: 15 % de las tareas del RA4 · Individual
+**RA4 · CE f** · Peso: 16 % de las tareas del RA4 · Individual
 
 *Adaptado de la «Actividad semana pre-Navidad (PROG-GIT)» del curso 2025-26.*
 
@@ -45,7 +45,7 @@ Desarrolla en Java un programa que controle la ocupación de un aparcamiento de 
 
 ## T3.2 · Ramas y conflictos { #t32 }
 
-**RA4 · CE f** · Peso: 15 % de las tareas del RA4 · Individual
+**RA4 · CE f** · Peso: 16 % de las tareas del RA4 · Individual
 
 ### Enunciado
 
@@ -70,7 +70,7 @@ Sobre el repositorio de la T3.1:
 
 ## T3.3 · Hundir la flota en equipo { #t33 }
 
-**RA4 · CE h** · Peso: 20 % de las tareas del RA4 · En parejas
+**RA4 · CE h** · Peso: 21 % de las tareas del RA4 · En parejas
 
 *Adaptado del ejercicio «Hundir la flota (PROG-GITHUB)» del curso 2025-26.*
 

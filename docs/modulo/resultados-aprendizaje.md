@@ -36,7 +36,7 @@ Analiza sus características para editar código fuente y generar ejecutables. *
 
 ## RA3 · Verifica el funcionamiento de programas diseñando y realizando pruebas
 
-**Peso: 22 %** · [UP4](../up4/index.md)
+**Peso: 21 %** · [UP4](../up4/index.md)
 
 | CE | Criterio | Tarea |
 |:--:|----------|:-----:|
@@ -54,7 +54,7 @@ Analiza sus características para editar código fuente y generar ejecutables. *
 
 ## RA4 · Optimiza código empleando las herramientas disponibles en el entorno de desarrollo
 
-**Peso: 31 %** · [UP3](../up3/index.md) (f, h) y [UP5](../up5/index.md) (a–e, g, i)
+**Peso: 34 %** · [UP3](../up3/index.md) (f, h) y [UP5](../up5/index.md) (a–e, g, i)
 
 | CE | Criterio | Tarea |
 |:--:|----------|:-----:|
@@ -72,7 +72,7 @@ Analiza sus características para editar código fuente y generar ejecutables. *
 
 ## RA5 · Genera diagramas de clases
 
-Valora su importancia en el desarrollo de aplicaciones y emplea herramientas específicas. **Peso: 16 %** · [UP6](../up6/index.md)
+Valora su importancia en el desarrollo de aplicaciones y emplea herramientas específicas. **Peso: 15 %** · [UP6](../up6/index.md)
 
 | CE | Criterio | Tarea |
 |:--:|----------|:-----:|
@@ -87,7 +87,7 @@ Valora su importancia en el desarrollo de aplicaciones y emplea herramientas esp
 
 ## RA6 · Genera diagramas de comportamiento
 
-Valora su importancia en el desarrollo de aplicaciones y emplea herramientas específicas. **Peso: 13 %** · [UP7](../up7/index.md)
+Valora su importancia en el desarrollo de aplicaciones y emplea herramientas específicas. **Peso: 12 %** · [UP7](../up7/index.md)
 
 | CE | Criterio | Tarea |
 |:--:|----------|:-----:|

@@ -6,15 +6,14 @@
 [project]
 site_name = "Entornos de Desarrollo · DAW1"
 site_description = "Módulo profesional 0487 Entornos de Desarrollo. CFGS Desarrollo de Aplicaciones Web, modalidad semipresencial (Comunitat Valenciana)."
-# PENDIENTE: sustituir USUARIO por la cuenta u organización de GitHub que publique el sitio.
-site_url = "https://USUARIO.github.io/DAW1_487-ED/"
-# PENDIENTE: sustituir [NOMBRE DEL DOCENTE] por la autoría que deba figurar.
-site_author = "[NOMBRE DEL DOCENTE]"
+site_url = "https://mapp-edu.github.io/DAW1_487-ED/"
+site_author = "Miquel Àngel París Peñaranda"
 copyright = """
-&copy; 2026 [NOMBRE DEL DOCENTE] ·
+&copy; 2026 Miquel Àngel París Peñaranda ·
 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es">CC BY-NC-SA 4.0</a>
 """
 docs_dir = "docs"
+extra_css = ["stylesheets/extra.css"]
 site_dir = "site"
 
 # Las soluciones solo se ven con `zensical serve`; no se publican con `zensical build`.
@@ -119,18 +118,24 @@ features = [
 
 [[project.theme.palette]]
 media = "(prefers-color-scheme)"
+primary = "custom"
+accent = "custom"
 toggle.icon = "lucide/sun-moon"
 toggle.name = "Cambiar a modo claro"
 
 [[project.theme.palette]]
 media = "(prefers-color-scheme: light)"
 scheme = "default"
+primary = "custom"
+accent = "custom"
 toggle.icon = "lucide/sun"
 toggle.name = "Cambiar a modo oscuro"
 
 [[project.theme.palette]]
 media = "(prefers-color-scheme: dark)"
 scheme = "slate"
+primary = "custom"
+accent = "custom"
 toggle.icon = "lucide/moon"
 toggle.name = "Usar la preferencia del sistema"
 

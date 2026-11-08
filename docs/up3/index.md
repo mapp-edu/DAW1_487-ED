@@ -6,8 +6,8 @@ Ningún equipo profesional trabaja sin control de versiones. En esta unidad apre
 |---|---|
 | **Resultado de aprendizaje** | RA4 · Optimiza código empleando las herramientas disponibles en el entorno de desarrollo |
 | **Criterios** | f (control de versiones integrado en el IDE) y h (repositorios remotos y desarrollo colaborativo) |
-| **Duración** | 15 horas · semanas 7–11 · 1.ª evaluación |
-| **Peso** | La UP3 aporta el 50 % de la nota del RA4 (31 % del módulo) |
+| **Duración** | 18 horas · semanas 7–12 · 1.ª evaluación |
+| **Peso** | La UP3 aporta el 53 % de la nota del RA4 (34 % del módulo) |
 
 ## Objetivos
 
@@ -34,15 +34,16 @@ Ningún equipo profesional trabaja sin control de versiones. En esta unidad apre
 | 8 | Historial, deshacer cambios y `.gitignore`. Git en IntelliJ IDEA y VS Code. | Apartado 5. **T3.1** |
 | 9 | Ramas, fusiones y conflictos. | Apartado 3. **T3.2** |
 | 10 | GitHub: remotos, autenticación y *pull requests*. Ejercicio de clase: aportación a un repositorio común. | Apartado 4. Inicio de **T3.3** |
-| 11 | Estrategias de ramificación. Revisión de código. Repaso. **Prueba presencial de la 1.ª evaluación.** | **T3.3** |
+| 11 | Estrategias de ramificación. Revisión de código. | **T3.3** |
+| 12 | Repaso de la 1.ª evaluación. **Prueba presencial de la 1.ª evaluación.** | Cierre de **T3.3** |
 
 ## Tareas evaluables
 
 | Tarea | CE | Peso en las tareas del RA4 |
 |-------|:--:|:--------------------------:|
-| [T3.1 · Primer repositorio: aparcamiento](tareas.md#t31) | f | 15 % |
-| [T3.2 · Ramas y conflictos](tareas.md#t32) | f | 15 % |
-| [T3.3 · Hundir la flota en equipo](tareas.md#t33) | h | 20 % |
+| [T3.1 · Primer repositorio: aparcamiento](tareas.md#t31) | f | 16 % |
+| [T3.2 · Ramas y conflictos](tareas.md#t32) | f | 16 % |
+| [T3.3 · Hundir la flota en equipo](tareas.md#t33) | h | 21 % |
 
 ## Recursos
 

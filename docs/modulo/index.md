@@ -7,15 +7,16 @@
 | **Módulo** | 0487 Entornos de Desarrollo |
 | **Ciclo** | CFGS Desarrollo de Aplicaciones Web (DAW), 1.^er^ curso |
 | **Modalidad** | Semipresencial |
-| **Duración** | 96 horas, 3 horas semanales durante 32 semanas |
+| **Duración** | 100 horas, 3 horas semanales durante 33 semanas |
 | **Plataforma** | Aules (entregas, foros y calificaciones) y este sitio (contenidos) |
-| **Docente** | [NOMBRE DEL DOCENTE] |
+| **Docente** | Miquel Àngel París i Peñaranda |
 
 ## Marco normativo
 
 - Real Decreto 686/2010, de 20 de mayo, por el que se establece el título de Técnico Superior en Desarrollo de Aplicaciones Web.
+- Real Decreto 405/2023, de 29 de mayo, por el que se actualiza el título de Técnico Superior en Desarrollo de Aplicaciones Web.
 - Real Decreto 500/2024, de 21 de mayo, que modifica determinados títulos de grado superior (entre ellos DAW) y actualiza los resultados de aprendizaje de este módulo.
-- Orden 60/2012, de 25 de septiembre, por la que se establece el currículo del ciclo en la Comunitat Valenciana.
+- Decreto 114/2025, de 29 de julio, por el que se establecen los currículos de los ciclos formativos de grado medio y de grado superior de Formación Profesional, en aplicación de la Ley orgánica 3/2022, de 31 de marzo, de ordenación e integración de la Formación Profesional.
 - Real Decreto 659/2023, de 18 de julio, por el que se desarrolla la ordenación del Sistema de Formación Profesional.
 - Orden de 4 de julio de 2008 de la Conselleria de Educación, que regula la modalidad semipresencial o a distancia de los ciclos formativos.
 - Decreto 104/2018, de 27 de julio, sobre equidad e inclusión en el sistema educativo valenciano.
