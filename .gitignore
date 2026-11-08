@@ -1,0 +1,16 @@
+# Sitio generado por Zensical
+/site/
+/.cache/
+
+# Entorno virtual de Python
+.venv/
+__pycache__/
+
+# Copias de seguridad de Moodle (pesadas y con datos del curso anterior)
+*.mbz
+
+# Sistema operativo y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

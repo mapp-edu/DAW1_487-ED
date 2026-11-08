@@ -1,0 +1,165 @@
+# ============================================================================
+# Entornos de Desarrollo (0487) · CFGS Desarrollo de Aplicaciones Web · 1.º
+# Configuración de Zensical — https://zensical.org/docs/setup/basics/
+# ============================================================================
+
+[project]
+site_name = "Entornos de Desarrollo · DAW1"
+site_description = "Módulo profesional 0487 Entornos de Desarrollo. CFGS Desarrollo de Aplicaciones Web, modalidad semipresencial (Comunitat Valenciana)."
+# PENDIENTE: sustituir USUARIO por la cuenta u organización de GitHub que publique el sitio.
+site_url = "https://USUARIO.github.io/DAW1_487-ED/"
+# PENDIENTE: sustituir [NOMBRE DEL DOCENTE] por la autoría que deba figurar.
+site_author = "[NOMBRE DEL DOCENTE]"
+copyright = """
+&copy; 2026 [NOMBRE DEL DOCENTE] ·
+<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es">CC BY-NC-SA 4.0</a>
+"""
+docs_dir = "docs"
+site_dir = "site"
+
+# Las soluciones solo se ven con `zensical serve`; no se publican con `zensical build`.
+draft_docs = """
+/soluciones/
+"""
+
+nav = [
+  { "Inicio" = "index.md" },
+  { "Guía del módulo" = [
+    "modulo/index.md",
+    { "Resultados de aprendizaje" = "modulo/resultados-aprendizaje.md" },
+    { "Temporización" = "modulo/temporizacion.md" },
+    { "Evaluación y calificación" = "modulo/evaluacion.md" },
+    { "Rúbricas: escala común" = "modulo/rubricas.md" },
+    { "Entorno de trabajo" = "modulo/entorno-de-trabajo.md" },
+    { "Créditos y licencia" = "modulo/creditos.md" },
+  ] },
+  { "UP1 · Desarrollo de software" = [
+    "up1/index.md",
+    { "1. Programas y sistema informático" = "up1/01-programas-y-sistema.md" },
+    { "2. Lenguajes y paradigmas" = "up1/02-lenguajes-y-paradigmas.md" },
+    { "3. Del código fuente al ejecutable" = "up1/03-codigo-fuente-a-ejecutable.md" },
+    { "4. Fases y ciclos de vida" = "up1/04-fases-y-ciclos-de-vida.md" },
+    { "5. Metodologías ágiles" = "up1/05-metodologias-agiles.md" },
+    { "Tareas" = "up1/tareas.md" },
+  ] },
+  { "UP2 · Entornos de desarrollo" = [
+    "up2/index.md",
+    { "1. Qué es un IDE" = "up2/01-que-es-un-ide.md" },
+    { "2. Instalación y actualización" = "up2/02-instalacion-y-actualizacion.md" },
+    { "3. Personalización y extensiones" = "up2/03-personalizacion-y-extensiones.md" },
+    { "4. Generar ejecutables" = "up2/04-generar-ejecutables.md" },
+    { "Tareas" = "up2/tareas.md" },
+  ] },
+  { "UP3 · Control de versiones" = [
+    "up3/index.md",
+    { "1. Sistemas de control de versiones" = "up3/01-sistemas-control-versiones.md" },
+    { "2. Git: primeros pasos" = "up3/02-git-primeros-pasos.md" },
+    { "3. Ramas y fusiones" = "up3/03-ramas-y-fusiones.md" },
+    { "4. Repositorios remotos y colaboración" = "up3/04-remotos-y-colaboracion.md" },
+    { "5. Git en el IDE" = "up3/05-git-en-el-ide.md" },
+    { "Tareas" = "up3/tareas.md" },
+  ] },
+  { "UP4 · Pruebas y depuración" = [
+    "up4/index.md",
+    { "1. Fundamentos de las pruebas" = "up4/01-fundamentos.md" },
+    { "2. Diseño de casos de prueba" = "up4/02-diseno-casos-prueba.md" },
+    { "3. Depuración en el IDE" = "up4/03-depuracion.md" },
+    { "4. Pruebas unitarias con JUnit" = "up4/04-junit.md" },
+    { "5. Dobles de prueba" = "up4/05-dobles-de-prueba.md" },
+    { "6. Documentar incidencias" = "up4/06-incidencias.md" },
+    { "Tareas" = "up4/tareas.md" },
+  ] },
+  { "UP5 · Refactorización, documentación e IC" = [
+    "up5/index.md",
+    { "1. Refactorización" = "up5/01-refactorizacion.md" },
+    { "2. Analizadores de código" = "up5/02-analizadores.md" },
+    { "3. Documentación del código" = "up5/03-documentacion.md" },
+    { "4. Integración continua" = "up5/04-integracion-continua.md" },
+    { "Tareas" = "up5/tareas.md" },
+  ] },
+  { "UP6 · Diagramas de clases" = [
+    "up6/index.md",
+    { "1. Orientación a objetos y UML" = "up6/01-poo-y-uml.md" },
+    { "2. Notación del diagrama de clases" = "up6/02-notacion.md" },
+    { "3. Relaciones" = "up6/03-relaciones.md" },
+    { "4. Herramientas, generación de código e ingeniería inversa" = "up6/04-herramientas.md" },
+    { "Tareas" = "up6/tareas.md" },
+  ] },
+  { "UP7 · Diagramas de comportamiento" = [
+    "up7/index.md",
+    { "1. Tipos de diagramas" = "up7/01-tipos.md" },
+    { "2. Casos de uso" = "up7/02-casos-de-uso.md" },
+    { "3. Secuencia y comunicación" = "up7/03-interaccion.md" },
+    { "4. Actividad" = "up7/04-actividad.md" },
+    { "5. Estados" = "up7/05-estados.md" },
+    { "Tareas" = "up7/tareas.md" },
+  ] },
+]
+
+[project.theme]
+language = "es"
+features = [
+  "announce.dismiss",
+  "content.code.annotate",
+  "content.code.copy",
+  "content.code.select",
+  "content.footnote.tooltips",
+  "content.tabs.link",
+  "content.tooltips",
+  "navigation.footer",
+  "navigation.indexes",
+  "navigation.instant",
+  "navigation.path",
+  "navigation.sections",
+  "navigation.top",
+  "navigation.tracking",
+  "search.highlight",
+  "toc.follow",
+]
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme)"
+toggle.icon = "lucide/sun-moon"
+toggle.name = "Cambiar a modo claro"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: light)"
+scheme = "default"
+toggle.icon = "lucide/sun"
+toggle.name = "Cambiar a modo oscuro"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: dark)"
+scheme = "slate"
+toggle.icon = "lucide/moon"
+toggle.name = "Usar la preferencia del sistema"
+
+[project.markdown_extensions]
+abbr = {}
+admonition = {}
+attr_list = {}
+def_list = {}
+footnotes = {}
+md_in_html = {}
+tables = {}
+toc.permalink = true
+pymdownx.betterem = {}
+pymdownx.caret = {}
+pymdownx.details = {}
+pymdownx.emoji.emoji_generator = "zensical.extensions.emoji.to_svg"
+pymdownx.emoji.emoji_index = "zensical.extensions.emoji.twemoji"
+pymdownx.highlight.anchor_linenums = true
+pymdownx.highlight.line_spans = "__span"
+pymdownx.highlight.pygments_lang_class = true
+pymdownx.inlinehilite = {}
+pymdownx.keys = {}
+pymdownx.magiclink = {}
+pymdownx.mark = {}
+pymdownx.smartsymbols = {}
+pymdownx.superfences.custom_fences = [
+  { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" },
+]
+pymdownx.tabbed.alternate_style = true
+pymdownx.tabbed.combine_header_slug = true
+pymdownx.tasklist.custom_checkbox = true
+pymdownx.tilde = {}

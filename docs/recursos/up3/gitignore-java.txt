@@ -1,0 +1,31 @@
+# .gitignore de ejemplo para proyectos Java
+# Renómbralo a .gitignore y colócalo en la raíz del repositorio.
+
+# Carpetas de compilación
+/bin/
+/out/
+/target/
+/build/
+
+# Ficheros compilados y empaquetados
+*.class
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDE (Visual Studio Code, IntelliJ IDEA, Eclipse)
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.iml
+.settings/
+.project
+.classpath
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Temporales y registros
+*.log
+*.tmp
